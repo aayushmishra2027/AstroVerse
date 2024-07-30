@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Replace these variables with your own values
-REPO_NAME="astronomy-website"
-GITHUB_USERNAME="your-username"
-FRONTEND_DIR="frontend"
-BACKEND_DIR="backend"
+REPO_NAME="AstroVerse"
+GITHUB_USERNAME="aayushmishra2027"
+FRONTEND_DIR="ImageGallery.js , ImageUpload.js"
+BACKEND_DIR="server.js"
 
 # Step 1: Create and clone the repository
 curl -u $GITHUB_USERNAME https://api.github.com/user/repos -d "{\"name\":\"$REPO_NAME\"}"
